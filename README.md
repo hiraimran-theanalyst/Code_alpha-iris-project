@@ -1,21 +1,26 @@
-# Code_alpha-iris-project
-This project analyzes the Iris dataset using Python. It includes exploratory data analysis (EDA), data visualization, and classification of flower species using machine learning algorithms.
-# Iris Dataset Analysis (Python)
+# Iris Flower Classification - CodeAlpha Internship
 
-This project analyzes the famous Iris dataset using Python.
+This project was completed as part of the CodeAlpha Data Science Internship.
 
-## Tools Used:
+## Project Description
+The project uses Machine Learning to classify Iris flowers into three species:
+- Setosa
+- Versicolor
+- Virginica
+
+## Technologies Used
 - Python
 - Pandas
-- Matplotlib / Seaborn
 - Scikit-learn
+- Matplotlib
+- Seaborn
 
-## Project Features:
-- Visualization
-- Species classification
+## Model Used
+- Logistic Regression
 
-## How to Run:
-1. Install required libraries:
-   pip install pandas matplotlib seaborn scikit-learn
-2. Run the file:
-   python iris_analysis.py
+## Results
+The model achieved 100% accuracy.
+
+## How to Run
+pip install -r requirements.txt
+python iris_classification.py
