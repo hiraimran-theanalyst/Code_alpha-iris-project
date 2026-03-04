@@ -21,12 +21,6 @@ The project uses Machine Learning to classify Iris flowers into three species:
 ## Results
 The model achieved 100% accuracy.
 
-### Training and Model Evaluation
-Following image shows the model evaluation used for the data
-
-[Images/Train-Test Split and Model Evaluation.JPG]
-
-
 ## How to Run
 pip install -r requirements.txt
 python iris_classification.py
